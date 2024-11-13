@@ -27,4 +27,4 @@ interface HospitalDetails {
   hospitalPhone: string[];
 }
 
-export { HospitalName, Patient, MedicineTrack, HospitalDetails };
+
