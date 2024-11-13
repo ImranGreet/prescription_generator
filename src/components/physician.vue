@@ -1,12 +1,15 @@
 <script setup lang="ts">
 import { reactive } from "vue";
 import { Patient } from "../scripts/interfaces";
+import HospitalDetails from "./HospitalDetails.vue";
 
 const PatientInfo = reactive<Patient>({
   name: "",
   age: 0,
   sex: "",
 });
+
+
 </script>
 
 <template>
@@ -17,6 +20,8 @@ const PatientInfo = reactive<Patient>({
     class="border border-red-100"
     placeholder="Enter name"
   />
+
+  <HospitalDetails/>
 </template>
 
 <style scoped>
