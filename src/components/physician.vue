@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { reactive } from "vue";
-import { Patient } from "../scripts/interfaces";
+import { Patient } from "../scripts/Interfaces/interfaces";
 import HospitalDetails from "./HospitalDetails.vue";
 
 const PatientInfo = reactive<Patient>({

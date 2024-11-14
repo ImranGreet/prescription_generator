@@ -9,18 +9,22 @@
       <div class="flex-1 ml-72 p-4">
         <physician></physician>
       </div>
+      
     </div>
+    <Medication/>
   </section>
 </template>
 
 <script>
 import HospitalDetails from "./components/HospitalDetails.vue";
+import Medication from "./components/Medication.vue";
 import Navbar from "./components/Navbar.vue";
 import Physician from "./components/physician.vue";
 
+
 export default {
   name: "App",
-  components: { Navbar, Physician, HospitalDetails },
+  components: { Navbar, Physician, HospitalDetails ,Medication},
 };
 </script>
 
